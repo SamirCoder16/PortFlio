@@ -190,7 +190,7 @@ html {
 
   @keyframes smoothType {
     0% { width: 0; }
-    50% { width: 19ch; }
+    50% { width: 5ch; }
     100% { width: 0; }
   }
   @keyframes caretBlink {
@@ -201,7 +201,7 @@ html {
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid white;
-    animation: smoothType 8s ease-in-out infinite, caretBlink 0.6s step-end infinite;
+    animation: smoothType 8s ease-in-out infinite, caretBlink 0.1s step-end infinite;
   }
 
 

@@ -44,9 +44,10 @@ const About = () => {
                     <p className='headtext'>Time Zone</p>
                     <p className='subtext'><span className='text-red-500'>I</span>,m based in <span className="bg-gradient-to-r text-2xl from-red-500 via-orange-400 to-yellow-300 bg-clip-text text-transparent">Mars</span>, and open to remote or Hybrid work worldwide</p>
                 <figure className='absolute left-[30%] top-[10%]'>
-                    <Globe />
-                </figure>
+                    {/* <Globe /> */}
+                </figure> 
                 </div>
+              
              </div>
               {/* Grid-4 */}
             <div className='grid-special-color grid-4'>

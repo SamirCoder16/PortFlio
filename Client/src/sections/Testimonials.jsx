@@ -39,7 +39,7 @@ export default function Testimonials() {
   return (
 
     <div className="items-start mt-25 md:mt-35 c-space"> 
-    <h2 className="text-heading"><span className="text-yellow-500">Here</span> from my <span className="text-red-700  text-center inline-grid typing-loop">Clients</span> </h2>
+    <h2 className="text-heading"><span className="text-yellow-500">Here</span> from my <span className="text-red-700  text-center inline-grid  typing-loop">Clients</span> </h2>
      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden mt-12">
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
