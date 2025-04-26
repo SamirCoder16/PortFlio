@@ -30,14 +30,14 @@ const Contact = () => {
     e.preventDefault();
     setisLoading(true);
     try {
-      await emailjs.send("service_7v4y51u", "template_sndn90r",{
+      await emailjs.send(import.meta.env.VITE_EMAIL_SERVICE_API, import.meta.env.VITE_EMAIL_SERVICE_TEMPLATE,{
         from_name: formData.name,
         to_name: "Samir",
         from_email: formData.email,
         to_email: "s30621024@gmail.com",
         message: formData.message
       },
-      "00iukL_8pwnAK2ygV"
+      import.meta.env.VITE_EMAIL_SERVICE_PUBLIC_KEY
     );
       setisLoading(false);  
       setformData({ name:"", email: "", message: "" })
